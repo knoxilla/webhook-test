@@ -3,17 +3,17 @@ version: 0.1
 phases:
   install:
     commands:
-      - echo Do nothing
+      - echo Do nothing and I mean it.
   pre_build:
     commands:
       - printenv
-      - echo Nothing to do in the pre_build phase...
+      - echo Shall we play a game? Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Build started on `date`
+      - echo Build started on `date`, but you knew that.
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on `date`, and you can take that to the bank.
 artifacts:
   files:
     - ./**
